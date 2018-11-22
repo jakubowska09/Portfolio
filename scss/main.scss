@@ -1,0 +1,13 @@
+@import "./variable";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./onepage.scss";
+
+
+@font-face {
+	font-family: "montserrat";
+	src: url("../font/montserrat/Montserrat-Black.otf") format("eot")
+		
+}
+.container {
+    max-width: 90% !important;
+}
