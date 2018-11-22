@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/onepage.scss"
+    ],
+    "names": [],
+    "file": "onepage.css"
+}
