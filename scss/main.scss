@@ -1,6 +1,6 @@
 @import "./variable";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "./onepage.scss";
+@import "./onepage";
 
 
 @font-face {
@@ -8,6 +8,14 @@
 	src: url("../font/montserrat/Montserrat-Black.otf") format("eot")
 		
 }
+@font-face {
+	font-family: 'Josefin';
+	src: url('../font/Josefin_Sans/JosefinSans-Light.ttf');
+	src: url('quadranta.otf') format('truetype'),
+		 url('quadranta.woff') format('woff'),
+		 url('quadranta.eot?#iefix') format('embedded-opentype'),
+		 url('quadranta.svg#QuadrantaBold') format('svg');
+	}
 .container {
     max-width: 90% !important;
 }
