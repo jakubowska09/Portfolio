@@ -9699,6 +9699,24 @@ header nav a:hover {
   font-size: 15px;
 }
 
+#portfolio .container h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #005A55;
+}
+
+.carttt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d-none2 {
+  display: none;
+}
+
 @font-face {
   font-family: "montserrat";
   src: url("../font/montserrat/Montserrat-Black.otf") format("eot");

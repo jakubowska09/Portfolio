@@ -175,4 +175,20 @@ header{
         }
     }
 }
+#portfolio{
+    .container{
+        h1{
+            font-family: 'Josefin Sans', sans-serif;
+            color: $info;
+        }
+    
+    }
+}
 
+.carttt{
+    display: flex;
+    justify-content: space-between;
+}
+.d-none2{
+    display: none;
+}
