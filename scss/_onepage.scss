@@ -228,3 +228,41 @@ header{
         }
     }
 }
+footer{
+    .container{
+        .row{
+            .col-8{
+                i{
+                    font-size: 40px;
+                    padding: 10px;
+                    color: $info;
+                }
+                i:hover{
+                    background-color: #005A55;
+                        color:white;
+                        padding: 20px;
+                        border-radius: 100px;
+                        font-size: 50px;
+                }
+            }
+        }
+        .row{
+            .col-12{
+                .cirl{
+                    border: #005A55 1px solid;
+                    padding: 5px;
+                    a{
+                        font-family: 'Josefin Sans', sans-serif;
+                        color: #005A55;
+                    }
+                    a:hover{
+                        border: #005A55 0.2px solid;
+                        padding: 10px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    
+    }
+}
