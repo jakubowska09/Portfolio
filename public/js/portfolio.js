@@ -10,9 +10,9 @@ let sd = document.getElementById("sectiondesign")
 function voir() {
     let activee = document.querySelector(".d-none2");
     sg.classList.add("d-block");
-    sd.classList.add("d-none2");
     sd.classList.remove("d-block");
-    activee.classList.remove("d-none2");
+    sd.classList.add("d-none2");
+    // activee.classList.remove("d-none2");
 }
 graph.addEventListener("click", voir);
 

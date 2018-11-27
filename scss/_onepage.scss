@@ -192,3 +192,39 @@ header{
 .d-none2{
     display: none;
 }
+
+#contact{
+    .blockinfo{
+        background-color: $info;
+        .container{
+            h1{
+                font-family: 'Josefin Sans', sans-serif;
+                color: white;
+            }
+            .row{
+                .col-4{
+                    .police{
+                        border: solid white 2px;
+                        padding-right: 20px;
+                        padding-left: 20px;
+                        p{
+                            font-family: 'Josefin Sans', sans-serif;
+                            color: white;
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .col-8{
+                    .imput{
+                        width: 45%;
+                        height:60px;
+                    }
+                    .mess{
+                        width: 91%;
+                        height:100px;
+                    }  
+                }
+            }
+        }
+    }
+}

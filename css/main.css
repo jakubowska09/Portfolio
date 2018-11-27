@@ -9717,6 +9717,37 @@ header nav a:hover {
   display: none;
 }
 
+#contact .blockinfo {
+  background-color: #005A55;
+}
+
+#contact .blockinfo .container h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+#contact .blockinfo .container .row .col-4 .police {
+  border: solid white 2px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#contact .blockinfo .container .row .col-4 .police p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+#contact .blockinfo .container .row .col-8 .imput {
+  width: 45%;
+  height: 60px;
+}
+
+#contact .blockinfo .container .row .col-8 .mess {
+  width: 91%;
+  height: 100px;
+}
+
 @font-face {
   font-family: "montserrat";
   src: url("../font/montserrat/Montserrat-Black.otf") format("eot");
