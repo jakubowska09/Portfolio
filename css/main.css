@@ -9526,8 +9526,8 @@ header nav a .imgnav {
 }
 
 header nav a:hover {
-  border-bottom: solid 0.3px black;
-  color: #005A55 !important;
+  border-bottom: solid 0.3px white;
+  color: white;
 }
 
 #aboutmy .blockp {
@@ -9560,13 +9560,17 @@ header nav a:hover {
   display: block;
 }
 
-#skills .blockblanc .container .row .col-12 h2 {
+#skills .blockblanc .container .row .col-12 h1 {
   font-family: 'Josefin Sans', sans-serif;
   color: #005A55;
-  font-size: 75px;
 }
 
-#skills .blockblanc .container .row .col-12 .row .col-6 #graphic .clas80 {
+#skills .blockblanc .container .row .col-12 #graphic {
+  border: #005A55 3px solid;
+  padding: 35px;
+}
+
+#skills .blockblanc .container .row .col-12 #graphic .clas80 {
   width: 10%;
   height: 25px;
   background-color: #005A55;
@@ -9578,13 +9582,13 @@ header nav a:hover {
   padding-bottom: 2px;
 }
 
-#skills .blockblanc .container .row .col-12 .row .col-6 #graphic .clas80:hover {
+#skills .blockblanc .container .row .col-12 #graphic .clas80:hover {
   background-color: #dc3545;
   width: 80% !important;
   text-align: right;
 }
 
-#skills .blockblanc .container .row .col-12 .row .col-6 #graphic .clas65 {
+#skills .blockblanc .container .row .col-12 #graphic .clas65 {
   width: 10%;
   height: 25px;
   background-color: #005A55;
@@ -9596,13 +9600,18 @@ header nav a:hover {
   padding-bottom: 2px;
 }
 
-#skills .blockblanc .container .row .col-12 .row .col-6 #graphic .clas65:hover {
+#skills .blockblanc .container .row .col-12 #graphic .clas65:hover {
   background-color: #dc3545;
   width: 65% !important;
   text-align: right;
 }
 
-#skills .blockblanc .container .row .col-12 .row .col-6 #lang .clas50 {
+#skills .blockblanc .container .row .col-12 #lang {
+  border: #005A55 3px solid;
+  padding: 35px;
+}
+
+#skills .blockblanc .container .row .col-12 #lang .clas50 {
   width: 10%;
   height: 25px;
   background-color: #005A55;
@@ -9614,13 +9623,13 @@ header nav a:hover {
   padding-bottom: 2px;
 }
 
-#skills .blockblanc .container .row .col-12 .row .col-6 #lang .clas50:hover {
+#skills .blockblanc .container .row .col-12 #lang .clas50:hover {
   background-color: #dc3545;
   width: 50% !important;
   text-align: right;
 }
 
-#skills .blockblanc .container .row .col-12 .row .col-6 #lang .clas60 {
+#skills .blockblanc .container .row .col-12 #lang .clas60 {
   width: 10%;
   height: 25px;
   background-color: #005A55;
@@ -9632,13 +9641,13 @@ header nav a:hover {
   padding-bottom: 2px;
 }
 
-#skills .blockblanc .container .row .col-12 .row .col-6 #lang .clas60:hover {
+#skills .blockblanc .container .row .col-12 #lang .clas60:hover {
   background-color: #dc3545;
   width: 60% !important;
   text-align: right;
 }
 
-#skills .blockblanc .container .row .col-12 .row .col-6 #lang .clas40 {
+#skills .blockblanc .container .row .col-12 #lang .clas40 {
   width: 10%;
   height: 25px;
   background-color: #005A55;
@@ -9650,10 +9659,44 @@ header nav a:hover {
   padding-bottom: 2px;
 }
 
-#skills .blockblanc .container .row .col-12 .row .col-6 #lang .clas40:hover {
+#skills .blockblanc .container .row .col-12 #lang .clas40:hover {
   background-color: #dc3545;
   width: 40% !important;
   text-align: right;
+}
+
+#service .blockvert {
+  background-color: #005A55;
+  color: white;
+}
+
+#service .blockvert .container h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+#service .blockvert .container .row .col-3 .borderr {
+  border: white solid 2px;
+  padding: 25px;
+}
+
+#service .blockvert .container .row .col-3 .borderr h3 {
+  font-size: 25px;
+}
+
+#service .blockvert .container .row .col-3 .borderr i {
+  font-size: 25px;
+}
+
+#service .blockvert .container .row .col-3 .borderr i:hover {
+  background-color: white;
+  color: #005A55;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+#service .blockvert .container .row .col-3 .borderr p {
+  font-size: 15px;
 }
 
 @font-face {

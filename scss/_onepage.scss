@@ -1,5 +1,4 @@
 header{
-    
     nav{
         font-family: 'Josefin Sans', sans-serif;
         font-size: 15px;
@@ -8,9 +7,8 @@ header{
                 width: 50%;
             }
         &:hover{
-            border-bottom: solid 0.3px black;
-            color: $zak;
-        }
+            border-bottom: solid 0.3px white;
+            color: white;}
         }
     }
 }
@@ -50,97 +48,131 @@ header{
         .container{
             .row{
                 .col-12{
-                    h2{
+                    h1{
                         font-family: 'Josefin Sans', sans-serif;
-                        color: $info;
-                        font-size: 75px; 
+                        color: $info; 
                     }
                 }
             }
             .row{
                 .col-12{
-                        .row{
-                            .col-6{
-                               #graphic{
-                                    .clas80{
-                                        width: 10%;
-                                        height: 25px;
-                                        background-color: #005A55;
-                                        transition : width 1s;
-                                        color: white;
-                                        padding-top: 5px;
-                                        padding-left: 5px;
-                                        padding-bottom: 2px;
-                                            &:hover{
-                                                background-color: $danger;
-                                                width: 80% !important;
-                                                text-align: right;}
-                                    }
-                                    .clas65{
-                                        width: 10%;
-                                        height: 25px;
-                                        background-color: #005A55;
-                                        transition : width 1s;
-                                        color: white;
-                                        padding-top: 5px;
-                                        padding-left: 5px;
-                                        padding-bottom: 2px;
-                                            &:hover{
-                                                background-color: $danger;
-                                                width: 65% !important;
-                                                text-align: right;}
-                                    }
-                                }
-                                #lang{
-                                    .clas50{
-                                        width: 10%;
-                                        height: 25px;
-                                        background-color: #005A55;
-                                        transition : width 1s;
-                                        color: white;
-                                        padding-top: 5px;
-                                        padding-left: 5px;
-                                        padding-bottom: 2px;
-                                            &:hover{
-                                                background-color: $danger;
-                                                width: 50% !important;
-                                                text-align: right;}
-                                    }
-                                    .clas60{
-                                        width: 10%;
-                                        height: 25px;
-                                        background-color: #005A55;
-                                        transition : width 1s;
-                                        color: white;
-                                        padding-top: 5px;
-                                        padding-left: 5px;
-                                        padding-bottom: 2px;
-                                            &:hover{
-                                                background-color: $danger;
-                                                width: 60% !important;
-                                                text-align: right;}
-                                    }
-                                    .clas40{
-                                        width: 10%;
-                                        height: 25px;
-                                        background-color: #005A55;
-                                        transition : width 1s;
-                                        color: white;
-                                        padding-top: 5px;
-                                        padding-left: 5px;
-                                        padding-bottom: 2px;
-                                            &:hover{
-                                                background-color: $danger;
-                                                width: 40% !important;
-                                                text-align: right;}
-                                    }
-                                }
-                            }
+                    #graphic{
+                        border: #005A55 3px solid;
+                        padding: 35px;
+                        .clas80{
+                            width: 10%;
+                            height: 25px;
+                            background-color: #005A55;
+                            transition : width 1s;
+                            color: white;
+                            padding-top: 5px;
+                            padding-left: 5px;
+                            padding-bottom: 2px;
+                                &:hover{
+                                    background-color: $danger;
+                                    width: 80% !important;
+                                    text-align: right;}
+                        }
+                        .clas65{
+                            width: 10%;
+                            height: 25px;
+                            background-color: #005A55;
+                            transition : width 1s;
+                            color: white;
+                            padding-top: 5px;
+                            padding-left: 5px;
+                            padding-bottom: 2px;
+                                &:hover{
+                                    background-color: $danger;
+                                    width: 65% !important;
+                                    text-align: right;}
+                        }
+                    }
+                    #lang{
+                        border: #005A55 3px solid;
+                        padding: 35px;
+                        .clas50{
+                            width: 10%;
+                            height: 25px;
+                            background-color: #005A55;
+                            transition : width 1s;
+                            color: white;
+                            padding-top: 5px;
+                            padding-left: 5px;
+                            padding-bottom: 2px;
+                                &:hover{
+                                    background-color: $danger;
+                                    width: 50% !important;
+                                    text-align: right;}
+                        }
+                        .clas60{
+                            width: 10%;
+                            height: 25px;
+                            background-color: #005A55;
+                            transition : width 1s;
+                            color: white;
+                            padding-top: 5px;
+                            padding-left: 5px;
+                            padding-bottom: 2px;
+                                &:hover{
+                                    background-color: $danger;
+                                    width: 60% !important;
+                                    text-align: right;}
+                        }
+                        .clas40{
+                            width: 10%;
+                            height: 25px;
+                            background-color: #005A55;
+                            transition : width 1s;
+                            color: white;
+                            padding-top: 5px;
+                            padding-left: 5px;
+                            padding-bottom: 2px;
+                                &:hover{
+                                    background-color: $danger;
+                                    width: 40% !important;
+                                    text-align: right;}
+                        }
                         }
                     }
                 }
             }
         }
     }
-
+#service{
+    .blockvert{
+        background-color: $info;
+        color: white;
+        .container{
+            h1{
+                font-family: 'Josefin Sans', sans-serif;
+                color: white;
+            }
+        .row{
+            .col-3{
+                .borderr{
+                    border: white solid 2px;
+                    padding: 25px;
+                    h3{
+                        font-size: 25px;
+                        }
+                    i{
+                        font-size: 25px;
+                    }
+                    i:hover{
+                        background-color: white;
+                        color: #005A55;
+                        padding: 10px;
+                        border-radius: 100px;
+                    }
+                    p{
+                        font-size: 15px; 
+                    }
+                    
+                    }
+                }
+            }
+        }
+    }
+}
 
