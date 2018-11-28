@@ -9516,13 +9516,17 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+html {
+  font-size: 1rem;
+}
+
 header nav {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 15px;
 }
 
 header nav a .imgnav {
-  width: 50%;
+  width: 30%;
 }
 
 header nav a:hover {
@@ -9537,6 +9541,7 @@ header nav a:hover {
 #aboutmy .blockp .container h1 {
   font-family: 'Josefin Sans', sans-serif;
   color: white;
+  font-size: 5.5rem;
 }
 
 #aboutmy .blockp .container .profil {
@@ -9547,7 +9552,7 @@ header nav a:hover {
 #aboutmy .blockp .container h2 {
   font-family: 'Josefin Sans', sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: 4.5rem;
 }
 
 #aboutmy .blockp .container p {
@@ -9563,6 +9568,7 @@ header nav a:hover {
 #skills .blockblanc .container .row .col-12 h1 {
   font-family: 'Josefin Sans', sans-serif;
   color: #005A55;
+  font-size: 5.5rem;
 }
 
 #skills .blockblanc .container .row .col-12 #graphic {
@@ -9670,9 +9676,10 @@ header nav a:hover {
   color: white;
 }
 
-#service .blockvert .container .col-12 h1 {
+#service .blockvert .container h1 {
   font-family: 'Josefin Sans', sans-serif;
   color: white;
+  font-size: 5.5rem;
 }
 
 #service .blockvert .container .row .col-lg-3 .borderr {
@@ -9702,6 +9709,7 @@ header nav a:hover {
 #portfolio .container h1 {
   font-family: 'Josefin Sans', sans-serif;
   color: #005A55;
+  font-size: 5.5rem;
 }
 
 .carttt {
@@ -9724,6 +9732,7 @@ header nav a:hover {
 #contact .blockinfo .container h1 {
   font-family: 'Josefin Sans', sans-serif;
   color: white;
+  font-size: 5.5rem;
 }
 
 #contact .blockinfo .container .row .col-lg-4 .police {
@@ -9738,23 +9747,23 @@ header nav a:hover {
   font-size: 20px;
 }
 
-#contact .blockinfo .container .row .col-8 .imput {
+#contact .blockinfo .container .row .col-lg-8 .imput {
   width: 45%;
   height: 60px;
 }
 
-#contact .blockinfo .container .row .col-8 .mess {
+#contact .blockinfo .container .row .col-lg-8 .mess {
   width: 91%;
   height: 100px;
 }
 
-footer .container .row .col-8 i {
+footer .container .row .col-lg-8 i {
   font-size: 40px;
   padding: 10px;
   color: #005A55;
 }
 
-footer .container .row .col-8 i:hover {
+footer .container .row .col-lg-8 i:hover {
   background-color: #005A55;
   color: white;
   padding: 10px;

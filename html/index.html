@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <header class="position-sticky">
-        <div>
+    <header>
+        <div class="fixed-top">
             <nav class="navbar navbar-expand-lg navbar-light bg-info">
                 <a class="navbar-brand" href="./index.html"><img src="../img/nav/pictogramme_curriculumvitae_sourie copie.png"
                         class="imgnav"></a>
@@ -68,10 +68,10 @@
     <section id="aboutmy">
         <div class="blockp pt-5 pb-5">
             <div class="container">
-                <h1 class="display-2">#About Me</h1><br>
+                <h1>#About Me</h1><br>
                 <div class="row">
-                    <div class="col-5"><img src="../img/aboutme/profait_couleur2.png" class="profil mt-5"></div>
-                    <div class="col-7">
+                    <div class="col-lg-5 col-ms-5 col-sm-5 "><img src="../img/aboutme/profait_couleur2.png" class="profil mt-5 mb-4"></div>
+                    <div class="col-lg-7 col-ms-7 col-sm-7 ">
                         <h2> Qui suis-je ?</h2>
                         <hr>
                         <p> Je m’appelle Patrycia. Moi, je suis quelqu'un organiser, ponctuelle et
@@ -104,7 +104,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="text-left">
-                            <h1 class="display-2">#Skills</h1>
+                            <h1>#Skills</h1>
                             <div class="row text-center mt-5 mb-5">
                                 <div class="col-4">
                                     <button type="button" class="btn btn-info" id="bnt1">All</button>
@@ -120,7 +120,6 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div id="graphic" class="d-none">
-                                            <h2 class="display-3">Design</h2>
                                             <h3>Photoshop</h3>
                                             <div class="clas80">80%</div>
                                             <h3>Illuctrator</h3>
@@ -131,7 +130,6 @@
 
 
                                         <div id="lang" class="d-none mt-3">
-                                            <h2 class="display-3">Languge de programmation</h2>
                                             <h3>Html</h3>
                                             <div class="clas60">60%</div>
                                             <h3>Css</h3>
@@ -161,12 +159,11 @@
     <section id="service">
         <div class="blockvert pb-5">
             <div class="container">
-                <h1 class="display-2 pt-5 mb-5">#Service</h1>
-                <div class="row">
+                <h1 class="pt-5 mb-5">#Service</h1>
+                <div class="row col-lg- col-ms- col-sm-">
                     <div class="col-lg-3 col-ms-3 col-sm-3">
-                        <div class=" borderr
-                        text-center">
-                            <h3 class="mb-3">Site web</h3>
+                        <div class="borderr text-center">
+                            <h3 class="mb-3 h3">Site web</h3>
                             <i class="fas fa-desktop mb-3"></i>
                             <p class="texteblanc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sed
                                 quos nisi harum consequuntur distinctio, atque voluptatibus aspernatur tenetur totam.</p>
@@ -174,8 +171,9 @@
                     </div>
                     <div class="col-lg-3 col-ms-3 col-sm-3">
                         <div class="borderr text-center">
-                            <h3 class="mb-3">Application</h3>
-                            <i class="fas fa-mobile-alt mb-3"></i>
+                            <h3 class="mb-3 h3">Application</h3>
+                            <i class="
+                                fas fa-mobile-alt mb-3"></i>
                             <p class="texteblanc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sed
                                 quos nisi harum consequuntur distinctio, atque voluptatibus aspernatur tenetur
                                 totam.</p>
@@ -183,7 +181,7 @@
                     </div>
                     <div class="col-lg-3 col-ms-3 col-sm-3">
                         <div class="borderr text-center">
-                            <h3 class="mb-3">Design</h3>
+                            <h3 class="h3 mb-3">Design</h3>
                             <i class="fas fa-object-group mb-3"></i>
                             <p class="texteblanc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sed
                                 quos nisi harum consequuntur distinctio, atque voluptatibus aspernatur tenetur
@@ -192,8 +190,9 @@
                     </div>
                     <div class="col-lg-3 col-ms-3 col-sm-3">
                         <div class="borderr text-center">
-                            <h3 class="mb-3">Maintenance</h3>
-                            <i class="far fa-hand-pointer mb-3"></i>
+                            <h3 class="h3 mb-3">Maintenance</h3>
+                            <i class="
+                                far fa-hand-pointer mb-3"></i>
                             <p class="texteblanc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sed
                                 quos nisi harum consequuntur distinctio, atque voluptatibus aspernatur tenetur
                                 totam.</p>
@@ -205,45 +204,46 @@
     </section>
     <section id="portfolio">
         <div class="container">
-            <h1 class="display-2 pt-5 ">#Portfolio</h1>
-        </div>
-        <div class="row text-center mb-3">
+            <h1 class="pt-5 ">#Portfolio</h1>
+            <div class="row text-center mb-3">
 
-            <div class="col-4">
-                <button type="button" id="graphisme" class="btn btn-info">Graphisme</button>
-            </div>
-            <div class="col-4">
-                <button type="button" id="ng" class="btn btn-info">Design</button>
-            </div>
-            <div class="col-4">
-                <button type="button" id="siteweb" class="btn btn-info">Site Web</button>
+                <div class="col-4">
+                    <button type="button" id="graphisme" class="btn btn-info">Graphisme</button>
+                </div>
+                <div class="col-4">
+                    <button type="button" id="ng" class="btn btn-info">Design</button>
+                </div>
+                <div class="col-4">
+                    <button type="button" id="siteweb" class="btn btn-info">Site Web</button>
+                </div>
             </div>
         </div>
+
         <div id="sectiongraphisme" class="text-center d-block">
             <div class="text-center carttt">
 
                 <div class="card" style="width: 25rem;">
-                    <img class="card-img-top" src="../img/portfolio/profait_couleur.png" alt="Card image cap">
+                    <img class="card-img-top" src="../img/card/png/card6.png" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text">Portrait créaliser dans l'illuctrator</p>
                     </div>
                 </div>
 
                 <div class="card" style="width: 25rem;">
-                    <img class="card-img-top" src="../img/portfolio/superday_superday_couleur.png" alt="Card image cap">
+                    <img class="card-img-top" src="../img/card/png/card8.png" alt="Card image cap">
                     <div class="card-body pb-1">
                         <p class="card-text">Logo application de mariage</p>
                     </div>
                 </div>
                 <div class="card" style="width: 25rem;">
-                    <img class="card-img-top" src="../img/portfolio/isecu-logo-final_icecu-final-couleur.png" alt="Card image cap">
+                    <img class="card-img-top" src="../img/card/png/card4.png" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text">Sociéte de securité</p>
                     </div>
                 </div>
 
                 <div class="card" style="width: 25rem;">
-                    <img class="card-img-top" src="../img/portfolio/640_640_picto.png" alt="Card image cap">
+                    <img class="card-img-top" src="../img/card/png/card1.png" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text">Pictogramme</p>
                     </div>
@@ -255,29 +255,62 @@
             <div class="text-center carttt">
 
                 <div class="card" style="width: 25rem;">
-                    <img class="card-img-top" src="../img/portfolio/carte_visite6.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../img/card/png/card2.png" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text">carte de visite</p>
                     </div>
                 </div>
 
                 <div class="card" style="width: 25rem;">
-                    <img class="card-img-top" src="../img/portfolio/photocv.png" alt="Card image cap">
+                    <img class="card-img-top" src="../img/card/png/card5.png" alt="Card image cap">
                     <div class="card-body pb-1">
                         <p class="card-text"> Portrait dans photoshop</p>
                     </div>
                 </div>
                 <div class="card" style="width: 25rem;">
-                    <img class="card-img-top" src="../img/portfolio/patryciagrapique.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../img/card/png/card7.png" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text">Patrycia Graphic Design</p>
                     </div>
                 </div>
 
                 <div class="card" style="width: 25rem;">
-                    <img class="card-img-top" src="../img/portfolio/forme_illu.png" alt="Card image cap">
+                    <img class="card-img-top" src="../img/card/png/card3.png" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text">Forme et couleur</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="sectionweb" class="text-center d-none2">
+            <div class="text-center carttt">
+
+                <div class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="../img/card/png/card9.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Site web
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="../img/card/png/card10.png" alt="Card image cap">
+                    <div class="card-body pb-1">
+                        <p class="card-text"> Site web</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="../img/card/png/card9.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Site web</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="../img/card/png/card10.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Site web</p>
                     </div>
                 </div>
 
@@ -287,7 +320,7 @@
     <section id="contact">
         <div class="blockinfo">
             <div class="container">
-                <h1 class="display-2 pt-5 pb-5">#Contact</h1>
+                <h1 class="pt-5 pb-5">#Contact</h1>
                 <div class="row">
                     <div class="col-lg-4 col-ms-4 col-sm-4 mb-4">
                         <div class="police pt-3">
@@ -300,7 +333,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-8">
+                    <div class="col-lg-8 col-ms-8 col-sm-8">
                         <input type="text" placeholder="Nom" class="imput">
                         <input type="text" placeholder="Prenom" class="imput"><br><br>
                         <input type="text" placeholder="Numero" class="imput">
@@ -318,7 +351,7 @@
         <div class="container">
             <div class="row mt-5">
                 <div class="col-2"></div>
-                <div class="col-lg-8 col-ms-8 col-sm-  text-center">
+                <div class="col-lg-8 col-ms-8 col-sm-8 text-center">
                     <img src="../img/nav/logonav-01.png">
                     <hr>
                     <i class="fab fa-facebook"></i>

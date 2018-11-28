@@ -1,10 +1,14 @@
+html {
+    font-size: 1rem;
+}
+  
 header{
     nav{
         font-family: 'Josefin Sans', sans-serif;
         font-size: 15px;
         a{
             .imgnav{
-                width: 50%;
+                width: 30%;
             }
         &:hover{
             border-bottom: solid 0.3px white;
@@ -20,6 +24,7 @@ header{
             h1{
                 font-family: 'Josefin Sans', sans-serif;
                 color: white;
+                font-size: 5.5rem;
             }
             .profil{
                 border-radius: 50px;
@@ -29,7 +34,7 @@ header{
             h2{
                 font-family: 'Josefin Sans', sans-serif;
                 color: white;
-                font-size: 30px;
+                font-size: 4.5rem;
             }
             p{
                 font-family: 'Josefin Sans', sans-serif;
@@ -50,7 +55,8 @@ header{
                 .col-12{
                     h1{
                         font-family: 'Josefin Sans', sans-serif;
-                        color: $info; 
+                        color: $info;
+                        font-size: 5.5rem;
                     }
                 }
             }
@@ -144,12 +150,12 @@ header{
         background-color: $info;
         color: white;
         .container{
-            .col-12{
-                h1{
+            h1 {
                     font-family: 'Josefin Sans', sans-serif;
                     color: white;
+                    font-size: 5.5rem;
                 }
-            }
+            
         .row{
             .col-lg-3{
                 .borderr{
@@ -182,6 +188,7 @@ header{
         h1{
             font-family: 'Josefin Sans', sans-serif;
             color: $info;
+            font-size: 5.5rem;
         }
     
     }
@@ -202,6 +209,7 @@ header{
             h1{
                 font-family: 'Josefin Sans', sans-serif;
                 color: white;
+                font-size: 5.5rem;
             }
             .row{
                 .col-lg-4{
@@ -216,7 +224,7 @@ header{
                         }
                     }
                 }
-                .col-8{
+                .col-lg-8{
                     .imput{
                         width: 45%;
                         height:60px;
@@ -233,7 +241,7 @@ header{
 footer{
     .container{
         .row{
-            .col-8{
+            .col-lg-8{
                 i{
                     font-size: 40px;
                     padding: 10px;

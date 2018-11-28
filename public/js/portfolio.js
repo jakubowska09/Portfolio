@@ -6,23 +6,38 @@ let site = document.getElementById("siteweb")
 
 let sg = document.getElementById("sectiongraphisme")
 let sd = document.getElementById("sectiondesign")
-
+let web = document.getElementById("sectionweb")
 function voir() {
-    let activee = document.querySelector(".d-none2");
+
     sg.classList.add("d-block");
-    sd.classList.remove("d-block");
     sd.classList.add("d-none2");
-    // activee.classList.remove("d-none2");
+    sd.classList.remove("d-block");
+    web.classList.remove("d-block")
+
 }
 graph.addEventListener("click", voir);
 
 
 function appli() {
-    let activee = document.querySelector(".d-none2");
-    sd.classList.add("d-block");
-    sg.classList.add("d-none");
-    sg.classList.remove("d-block");
 
-    // activee.classList.remove("d-none2")
+    sd.classList.add("d-block");
+    sg.classList.add("d-none2");
+    sg.classList.remove("d-block");
+    web.classList.add("d-none2")
+    web.classList.remove("d-block")
+
 }
 ng.addEventListener("click", appli)
+
+
+function wagg() {
+
+    web.classList.add("d-block");
+    sd.classList.add("d-none2");
+    sd.classList.remove("d-block");
+    sg.classList.add("d-none2");
+    sg.classList.remove("d-block");
+
+
+}
+site.addEventListener("click", wagg);

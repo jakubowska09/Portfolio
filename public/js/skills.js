@@ -15,20 +15,20 @@ function affiche() {
 butall.addEventListener("click", affiche);
 
 function visualiser() {
-    let activee = document.querySelector(".d-none");
+    let act = document.querySelector(".d-none");
     des.classList.add("d-block");
     langague.classList.remove("d-block");
     langague.classList.add("d-none");
-    activee.classList.remove("d-none");
+    act.classList.remove("d-none");
 }
 butdesign.addEventListener("click", visualiser);
 
 function coller() {
-    let activee = document.querySelector(".d-none");
+    let accelerer = document.querySelector(".d-none");
     langague.classList.add("d-block");
     des.classList.remove("d-block");
     des.classList.add("d-none");
-    activee.classList.remove("d-none");
+    accelerer.classList.remove("d-none");
 }
 butlangague.addEventListener("click", coller);
 
